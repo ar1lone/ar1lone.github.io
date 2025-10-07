@@ -27,16 +27,8 @@
 
 ## Код — мой стиль, моя сила
 
-Код — не просто строки, а мой стиль жизни
-class Developer:
-def init(self, name, skills):
-self.name = name
-self.skills = skills
-
 def display_skills(self):
     print(f"{self.name} владеет навыками: {', '.join(self.skills)}")
-dmitry = Developer("Тарасов Дмитрий", ["Python", "C#", "Neural Networks"])
-dmitry.display_skills()
 
 
 ## Смотрите мои проекты и будьте вместе со мной на волне технологий!
